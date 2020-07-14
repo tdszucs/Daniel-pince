@@ -1,0 +1,9 @@
+
+character_name = "john"
+character_age = 35
+print(" was a man named " +character_name+ ",....")
+print(" he was" +character_age+ "years old")
+character_name = "mike"
+print("he liked the name " +character_name+" but")
+print("didnt like being " +character_age+ "")
+

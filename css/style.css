@@ -5,10 +5,17 @@
 * {
   box-sizing: border-box;
  font-family: 'Josefin Sans', sans-serif;
-
+}
 
 header {
 	background-color: #aea598;
+	height: 45px
 }
+
+nav .bg-light {
+	background-color: #fff
+
+}
+
 
 </style>
