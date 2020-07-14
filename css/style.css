@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
  font-family: 'Josefin Sans', sans-serif;
+ color: #aea598;
 }
 
 header {
@@ -12,10 +13,61 @@ header {
 	height: 45px
 }
 
-nav .bg-light {
-	background-color: #fff
+
+.navbar-brand.nav {
+	color: #aea598;
+	font-size: 1em
+}
+
+
+.title {
+	color: #aea598;
+	font-size:40px;
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0px
 
 }
+
+.jumbotron {
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: flex;
+}
+
+#soder{
+	color: #aea598;
+	font-size:20px;
+	text-align: center;
+	font-family: ariel;
+	padding: 80px;
+}
+
+.row{
+	color: #FF0
+	align-items:center;
+}
+
+.volgy{
+background-image: url("..images/volgy.jpg");
+width: 300px;
+height:300px;
+}
+
+
+
+
+
+.card{
+	width: 300px;
+	height:300px;
+	align-content: center;
+	background-image: url("..images/volgy.jpg");
+
+}
+
 
 
 </style>
