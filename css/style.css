@@ -13,42 +13,118 @@ header {
 	height: 45px
 }
 
+nav img {
+
+	margin-left: 150px
+}
+
+div{
+
+margin-top:0;
+margin-right:auto;
+margin-bottom:0;
+margin-left:auto;
+}
 
 .navbar-brand.nav {
 	color: #aea598;
-	font-size: 1em
+	font-family: 'Montserrat', sans-serif;
+
 }
 
+#dropdownMenuButton{
+    background-color: #FFF;
+    color:#aea598; 
+   	font-family: 'Montserrat', sans-serif;
+
+}
+a.dropdown-item{
+    background-color: #FFF;
+    color:#aea598; 
+   	font-family: 'Montserrat', sans-serif;
+
+}
 
 .title {
 	color: #aea598;
 	font-size:40px;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin: 0px
 
 }
 
 .jumbotron {
   background-image: url("../images/jumbotron.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  justify-content: center;
-  align-items: center;
-  height: flex;
+  height: 300px;  
 }
 
 #soder{
 	color: #aea598;
 	font-size:20px;
 	text-align: center;
-	font-family: ariel;
+	font-family: 'Montserrat', sans-serif;
 	padding: 80px;
 }
 
 .row{
 	color: #FF0
 	align-items:center;
+	text-align: center;
+
 }
+
+
+div.row{
+
+	margin-left: 100px;
+	margin-right: 100px;
+}
+div.volgy {
+margin: 0 auto;
+background-image: url("../images/jumbotron.jpg");
+color:#FFF;
+text-align:center;
+padding-top: 140px;
+height: 300px;
+}
+
+div.volgy:hover {
+opacity: 0.8;
+color: #000;
+}
+
+div.pince {
+margin: 0 auto;
+background-image: url("../images/jumbotron.jpg");
+color:#FFF;
+text-align:center;
+padding-top: 140px;
+height: 300px;
+}
+div.pince:hover {
+opacity: 0.8;
+color: #000;
+}
+
+div.hangulat {
+margin: 0 auto;
+background-image: url("../images/jumbotron.jpg");
+color:#FFF;
+text-align:center;
+padding-top: 140px;
+height: 300px;
+}
+
+div.hangulat:hover {
+opacity: 0.8;
+color: #000;
+}
+
+
 
 .volgy{
 background-image: url("..images/volgy.jpg");
@@ -60,13 +136,6 @@ height:300px;
 
 
 
-.card{
-	width: 300px;
-	height:300px;
-	align-content: center;
-	background-image: url("..images/volgy.jpg");
-
-}
 
 
 
