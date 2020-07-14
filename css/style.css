@@ -1,22 +1,159 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<style>
 
-<title>Dániel Pince Szekszárd</title>
-</head>
-<body>
-<article>
-  <header>
-    <h1>A heading here</h1>
-    <p>Posted by John Doe</p>
-    <p>Some additional information here</p>
-  </header>
-  <p>Lorem Ipsum dolor set amet....</p>
-</article>
-	
-</body>
-</html>
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+ font-family: 'Josefin Sans', sans-serif;
+
+
+
+
+header {
+	background-color: #aea598;
+}
+
+</style>
+
+
+
+
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+  font-family: serif;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+
+p {
+ padding:20px;
+ margin-top: 60px
+}
+
+div{
+  float:left;
+  position: relative;
+  
+}
+
+#page{
+  margin-left:5%;
+  margin-right: 5%;
+
+}
+
+#t1{
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin:0px;
+  position: absolute;
+  right:0px;
+  height: 30px;
+  background-color: #FF8383;
+  font-size: 125%;
+}
+
+#t2{
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin:0px;
+  position: absolute;
+  right:0px;
+  height: 30px;
+  background-color: #44FF33;
+  font-size: 125%;
+}
+
+#t3{
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin:0px;
+  position: absolute;
+  right:0px;
+  height: 30px;
+  background-color: #4422FF;
+  font-size: 125%;
+}
+
+
+#d1{
+  background-color:grey;
+  border:1px solid black;
+  margin-bottom:20px;
+
+}
+
+#d2{
+  background-color:grey;
+  border:1px solid black;
+  margin-bottom:20px;
+
+}
+#d3{
+  background-color:grey;
+  border:1px solid black;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px)
+{
+  #d1 {
+    width: 31%;
+    margin-right: 3%
+  }
+  #d2 {
+    width: 31%;
+    margin-right: 3%
+  }
+  #d3 {
+    width: 31%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+  #d1 {
+    width: 48%; 
+  }
+  #d2 {
+    width: 48%;
+    float: right
+  }
+   #d3 {
+    width: 100%;
+  }
+  
+}
+
+
+/********** Small devices only **********/
+@media (max-width: 767px)
+{
+  #d1 {
+    width: 100%;
+  }
+  #d2 {
+    width: 100%;
+  }
+   #d3 {
+    width: 100%;
+  }
+  
+}
+
+</style>
